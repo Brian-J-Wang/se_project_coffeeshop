@@ -8,3 +8,98 @@
 }
 
 /* Times New Roman is used as fallback for Noto serif followed by serif */
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  position: relative;
+  left: -50px;
+}
+
+.nav__links {
+  display: flex;
+  list-style: none;
+  margin: 0 0 auto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.nav__link {
+  margin-right: 20px;
+}
+
+.nav__link:last-child {
+  margin-right: 0px;
+}
+
+.header__title {
+  margin: 183px 0px 0px 0px;
+  max-width: 729px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  z-index: 2;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__description {
+  margin-top: 28px;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  z-index: 2;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  font-style: normal;
+  font-weight: 500px;
+  color: #838383;
+}
+
+.hours__element {
+  margin: 0;
+}
