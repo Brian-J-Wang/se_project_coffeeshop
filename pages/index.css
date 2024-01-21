@@ -184,6 +184,11 @@ link:last-child {
   margin: 80px auto 120px;
 }
 
+.form {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+}
+
 .form__fieldset {
   display: flex;
   flex-direction: column;
@@ -195,8 +200,6 @@ link:last-child {
 
 .form__label {
   margin: 0px 0px 8px 0px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -207,8 +210,6 @@ link:last-child {
   height: 60px;
   max-width: 385px;
   margin-bottom: 32px;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 20px;
@@ -222,8 +223,6 @@ link:last-child {
   background-color: #2f80ed;
   color: #ffffff;
   border: none;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -235,6 +234,8 @@ link:last-child {
 }
 
 .form__checkbox {
+  position: relative;
+  vertical-align: middle;
   border-radius: 2px;
   width: 20px;
   height: 20px;
