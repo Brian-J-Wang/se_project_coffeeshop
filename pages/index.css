@@ -133,7 +133,7 @@ link:last-child {
 .recipes__subtitle {
   margin-top: 24px;
   max-width: 438px;
-  font-family: car(--noto);
+  font-family: var(--noto);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
