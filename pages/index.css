@@ -1,8 +1,13 @@
+:root {
+  --inter: "Inter", Arial, sans-serif;
+  --noto: "Noto Serif", "Times New Roman", serif;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: var(--inter);
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -67,7 +72,7 @@ link:last-child {
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: var(--noto);
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -78,7 +83,7 @@ link:last-child {
 .header__description {
   margin-top: 28px;
   max-width: 683px;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: var(--noto);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -118,7 +123,7 @@ link:last-child {
 
 .recipes__title {
   max-width: 580px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: var(--inter);
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -128,7 +133,7 @@ link:last-child {
 .recipes__subtitle {
   margin-top: 24px;
   max-width: 438px;
-  font-family: "Noto Serif", "Times New Roman", serif;
+  font-family: car(--noto);
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -152,10 +157,97 @@ link:last-child {
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: var(--inter);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reservation__title {
+  text-align: center;
+  margin-top: 100px;
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 80px auto 120px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 385px;
+}
+
+.form__label {
+  margin: 0px 0px 8px 0px;
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  height: 60px;
+  max-width: 385px;
+  margin-bottom: 32px;
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  width: 385px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border: none;
+  font-family: var(--inter);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  transition: opacity 0.25s;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.form__agreement {
+  display: block;
+  margin-top: 32px;
+  text-align: center;
 }

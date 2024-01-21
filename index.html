@@ -109,7 +109,60 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          <div class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                class="form__input"
+                id="name"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+              <label class="form__label" for="numGuests">
+                Number of guests *</label
+              >
+              <input
+                class="form__input"
+                id="numGuests"
+                type="number"
+                placeholder="1-8"
+                min="1"
+                max="8"
+                required
+              />
+              <label class="form__label" for="datetime"> Date & time *</label>
+              <input
+                class="form__input"
+                id="datetime"
+                type="datetime-local"
+                required
+              />
+              <label class="form__label" for="email"> Your email *</label>
+              <input
+                class="form__input"
+                id="email"
+                type="text"
+                placeholder="johnsmith@email.com"
+                required
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <fieldset class="form__fieldset form__agreement">
+              <input
+                class="form__checkbox"
+                id="agreement"
+                type="checkbox"
+                required
+              />
+              <label class="form__label" for="agreement"
+                >I agree with the terms of use</label
+              >
+            </fieldset>
+          </div>
+        </section>
         <section class="menu"></section>
         <section class="about"></section>
       </main>
