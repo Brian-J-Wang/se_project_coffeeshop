@@ -4,15 +4,16 @@
 
 .card__title {
   margin-bottom: 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin: 0px 0px 32px;
 }
 
 .card__list-items {
+  margin: 0px;
   padding: 0px;
 }
 
@@ -21,11 +22,15 @@
   list-style: none;
   margin-bottom: 16px;
   margin-right: 0px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0px;
 }
 
 .card__list-divider {

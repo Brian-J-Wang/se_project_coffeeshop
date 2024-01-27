@@ -10,19 +10,20 @@
   left: 30px;
 }
 
-.nav__links {
+.nav__list-items {
   display: flex;
   list-style: none;
+  padding: 0px;
   margin: 0 0 auto;
   font-style: normal;
   font-weight: 500;
 }
 
-.nav__links li {
+.nav__list-item {
   margin-right: 20px;
 }
 
-.nav__links li:last-child {
+.nav__list-item:last-child {
   margin-right: 0px;
 }
 

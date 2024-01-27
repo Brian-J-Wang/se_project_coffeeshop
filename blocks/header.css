@@ -36,7 +36,7 @@
 }
 
 .header__description {
-  margin-top: 28px;
+  margin: 28px 0px auto;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;

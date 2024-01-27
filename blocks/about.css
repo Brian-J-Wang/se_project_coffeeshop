@@ -17,7 +17,6 @@
   position: relative;
   background-color: #0a2850;
   display: flex;
-  flex-direction: column;
   overflow: hidden;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .about__title {
-  position: absolute;
+  position: relative;
   max-width: 251px;
   top: 100px;
   left: 80px;
@@ -58,4 +57,12 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+}
+
+.about__paragraph {
+  margin: 0px 0px 20px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0px;
 }
