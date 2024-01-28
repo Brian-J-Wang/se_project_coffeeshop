@@ -51,5 +51,10 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  margin: 24px 0px 0px;
+}
+
+.recipes__caption-text {
   margin: 0px;
+  padding: 0px;
 }

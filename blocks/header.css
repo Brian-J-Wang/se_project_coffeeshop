@@ -64,6 +64,10 @@
   color: #838383;
 }
 
+.header__hours {
+  display: block;
+}
+
 .header__paragraph {
   margin: 0;
 }

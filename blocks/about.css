@@ -34,18 +34,22 @@
   animation: pulsate 1.3s ease-in-out infinite;
 }
 
+.about__text {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+}
+
 .about__title {
-  position: relative;
   max-width: 251px;
-  top: 100px;
-  left: 80px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   color: #fff;
-  margin: 0px;
+  margin: 100px auto auto 80px;
 }
 
 .about__content {
